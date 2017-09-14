@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+        <style>
+         html{
+         	height: 100%;      	            	
+         }
+         a{
+         	text-decoration: none;
+         	width:50px;
+         	height: 50px;
+            display: block;
+            -webkit-tap-highlight-color: transparent;  /* 轻触的高亮颜色设置为透明   */
+            
+         }
+         body,p{
+         	margin:0;
+        	padding:0;
+         }
+         body{
+         	height: 100%;
+         }
+         .box{
+         	width:100%;
+         	height: 100%;
+         	background: red;
+         	position: relative;
+         	
+         }
+         .box p{
+             position: absolute;
+             top:50%;
+             left:50%;
+             transform: translate(-50%,-50%);
+         }
+        	
+        </style>
+	</head>
+	<body>
+		<div class="box">
+			<p>我是一个测试的页面
+			  <a href="#">baidu</a>
+			</p>
+		</div>
+	</body>
+</html>
